@@ -7,13 +7,13 @@ In this assignment, you will update the file `script.js` and commit it to your a
 ---
 
 ### Accessing the Assignment Materials
-1. Naviagate to the assignmetn repository in the course [GitHub organization](https://github.com/MUST4707)
+1. Navigate to the assignment repository in the course [GitHub organization](https://github.com/MUST4707)
 2. Click on the green `Use this template` button in the top right corner.
 3. Choose 'Create a new repository'
 4. Set up the repo name under your account.
 5. Click `Create repository`
 
-*You should now be at your own personal repositiory with the assignment materials.*
+*You should now be at your own personal repository with the assignment materials.*
 6. Click on the green `<> Code` button and select `Open with GitHub Desktop
 
 *You should now be in your GitHub Desktop application that has a pop up window called 'Clone a Repository'*
@@ -28,8 +28,8 @@ In this assignment, you will update the file `script.js` and commit it to your a
 
 ### Task Description
 
-1. The provided `script.js` contains an object called `exampleObject` with a few properties already defined.
-2. Your task is to add **two new properties** to `exampleObject`:
+1. The provided `script.js` contains an object called `song` with a few properties already defined.
+2. Your task is to add **two new properties** to `song`:
     - A property named `releaseYear` that contains a number (e.g., `2023`).
     - A property named `isAvailable` that contains a boolean value (`true` or `false`).
 
@@ -73,7 +73,7 @@ _this is where you will type your code Edit the song object...._
 
 ### Testing Your Work
 
-### Testing (Using VS Code and your Browser)
+#### Testing (Using VS Code and your Browser)
 1. Make sure you have saved all of your files, then click on the `index.html` file.
 2. Click on "Go Live"
 3. Once the browser window opens with the assignment webpage, open the Javascript Console
@@ -106,7 +106,11 @@ _this is where you will type your code Edit the song object...._
 
 The following criteria will be checked:
 
-1. The `releaseYear` property exists and is a number.
-2. The `isAvailable` property exists and is a boolean.
+1. `song` exists
+2. `song` is an `'object'`
+3. The `releaseYear` property exists.
+4. The `releaseYear` property type is a number. 
+5. The `isAvailable` property exists. 
+6. The `isAvailable` property type is a boolean.
 
 ---
